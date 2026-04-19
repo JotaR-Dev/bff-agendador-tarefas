@@ -39,8 +39,9 @@ public class UsuarioController {
     @ApiResponse(responseCode = "200", description = "Usuario logado com sucesso")
     @ApiResponse(responseCode = "401", description = "Credenciais invalidas")
     @ApiResponse(responseCode = "500", description = "Erro de servidor")
-    public String login(@RequestBody LoginRequestDTO usuarioDTO){
+    public String login(@RequestBody LoginRequestDTO usuarioDTO) {
         return usuarioService.loginUsuario(usuarioDTO);
+
     }
 
     @GetMapping
