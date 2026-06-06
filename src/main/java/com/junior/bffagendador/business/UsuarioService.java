@@ -8,7 +8,7 @@ import com.junior.bffagendador.business.dto.in.UsuarioDTORequest;
 import com.junior.bffagendador.business.dto.out.EnderecoDTOResponse;
 import com.junior.bffagendador.business.dto.out.TelefoneDTOResponse;
 import com.junior.bffagendador.business.dto.out.UsuarioDTOResponse;
-import com.junior.bffagendador.infrastructure.UsuarioClient;
+import com.junior.bffagendador.infrastructure.client.UsuarioClient;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

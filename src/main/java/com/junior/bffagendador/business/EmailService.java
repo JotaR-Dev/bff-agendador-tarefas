@@ -2,7 +2,7 @@ package com.junior.bffagendador.business;
 
 
 import com.junior.bffagendador.business.dto.out.TarefasDTOResponse;
-import com.junior.bffagendador.infrastructure.EmailClient;
+import com.junior.bffagendador.infrastructure.client.EmailClient;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

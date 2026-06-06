@@ -1,4 +1,4 @@
-package com.junior.bffagendador.infrastructure;
+package com.junior.bffagendador.infrastructure.client;
 
 import com.junior.bffagendador.business.dto.in.EnderecoDTORequest;
 import com.junior.bffagendador.business.dto.in.LoginRequestDTO;
